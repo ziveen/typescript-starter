@@ -15,7 +15,9 @@
 			"types": "./dist/index.d.ts"
 		}
 	},
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "tsup",
 		"format": "biome format --write ./src",
@@ -27,6 +29,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.7.3",
 		"tsup": "^8.0.2",
-		"typescript": "^5.4.5"
+		"typescript": "^5.4.5",
+		"vitest": "^1.6.0"
 	}
 }
